@@ -13,7 +13,8 @@ body{
 
 header{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul{
@@ -36,9 +37,10 @@ a{
     gap:100px;
 }
 main{
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 800;
+    font-size: 48px;
     margin-bottom: -15px;
+    color: #F9FAF8;
 }
 br{
     display: block;
@@ -50,6 +52,10 @@ br{
     display: flex;
     flex-direction: column;
 }
+.main-left>p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .main-pic{
     width: 1150px;
@@ -58,7 +64,7 @@ br{
 }
 
 button{
-    background-color: rgb(34, 153, 226);
+    background-color: #3882F6;
     color: white;
     padding: 10px 15px 10px 15px;
     width: 125px;
@@ -70,7 +76,9 @@ button{
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
 
 }
 
@@ -94,4 +102,19 @@ img.middle{
 
 ul.middle{
     gap:50px;
+}
+.quote-block{
+    background-color: #E5E7EB;
+    padding: 100px 210px 80px 210px;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+.author{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
 }
