@@ -42,11 +42,7 @@ main{
     margin-bottom: -15px;
     color: #F9FAF8;
 }
-br{
-    display: block;
-    content: "";
-    margin: -10px;
-}
+
 
 .main-left{
     display: flex;
@@ -66,12 +62,13 @@ br{
 button{
     background-color: #3882F6;
     color: white;
-    padding: 10px 15px 10px 15px;
+    padding:5px;
     width: 125px;
-    border-radius: 10px;
-    border: none;
+    height: 35px;
+    border-radius: 8px;
+    border-style: none;
     font-weight: 500;
-    font-size: 18px; 
+    font-size: 100%;
 }
 
 h2{
@@ -117,4 +114,41 @@ ul.middle{
     font-size: 25px;
     font-weight: 700;
     text-align: right;
+}
+
+.bottombar{
+    background-color: #3882F6;
+    margin: 100px;
+    display: flex;
+    padding: 30px 100px;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-left{
+    color: white;
+}
+
+.bottom-left>h3{
+    font-size: 25px;
+    margin-bottom: -15px;
+}
+.bottom-left>p{
+    font-weight: 200;
+    font-size: 18px;
+}
+button.bottom{
+    border-style:solid;
+    border-color: rgb(184, 212, 249);
+    border-width: 2px;
+}
+
+footer{
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 25px;
+    font-weight: 200;
 }
